@@ -1,5 +1,10 @@
-# Virtual environments
-venv/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+
+# C extensions
+*.so
 
 # Distribution / packaging
 .Python
@@ -17,3 +22,75 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+
+# Secrets / env
+.env
+.env.local
+.env.*.local
+instance/
+secrets.json
+*.pem
+*.key
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python bytecode, coverage, caches
+*.pyc
+*.pyo
+*.pyd
+
+# MyPy / type check
+.mypy_cache/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Node / frontend (if present)
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Misc
+*.envrc
+*.swp
